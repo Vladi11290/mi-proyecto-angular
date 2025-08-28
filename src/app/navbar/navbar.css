@@ -1,18 +1,45 @@
+
 nav {
-  background-color: #333;
-  padding: 1rem;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-nav ul {
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+   margin-left: 2rem;
+}
+
+.nav-links {
   list-style: none;
   display: flex;
   gap: 2rem;
   margin: 0;
   padding: 0;
+  margin-right: 5rem; 
 }
 
-nav ul li a {
-  color: white;
+.nav-links li a {
   text-decoration: none;
-  font-weight: bold;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+  
 }

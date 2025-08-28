@@ -9,19 +9,45 @@
 
 <app-navbar></app-navbar>
 
-<main>
-  <section id="inicio">
-    <h2>Inicio</h2>
-    <p>Bienvenido a la página principal de este proyecto Angular.</p>
-  </section>
+<section id="inicio" class="carousel-container">
+  <div class="carousel">
+    <div
+      class="slide"
+      *ngFor="let img of images; let i = index"
+      [class.active]="i === currentSlide()"
+    >
+      <img [src]="img" alt="Slide {{ i + 1 }}">
+    </div>
 
-  <section id="servicios">
-    <h2>Servicios</h2>
-    <p>Aquí puedes describir los servicios que ofreces.</p>
-  </section>
+    <button class="prev" (click)="prevSlide()">❮</button>
+    <button class="next" (click)="nextSlide()">❯</button>
 
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Puedes escribir tu información de contacto aquí.</p>
-  </section>
-</main>
+    <div class="dots">
+      <span
+        *ngFor="let img of images; let i = index"
+        [class.active]="i === currentSlide()"
+        (click)="goToSlide(i)"
+      ></span>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+<section id="servicios">
+  <h2>Servicios</h2>
+  <p>Servicios que ofreces...</p>
+</section>
+
+<section id="sobre-mi">
+  <h2>Sobre mí</h2>
+  <p>Una breve descripción...</p>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Datos de contacto...</p>
+</section>
+
+
