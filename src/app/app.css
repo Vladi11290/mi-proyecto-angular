@@ -6,6 +6,11 @@ body {
   color: #333;
 }
 
+/* ===================== */
+/* 🌐 BARRA DE NAVEGACIÓN */
+/* ===================== */
+
+
 nav {
   background-color: #222;
   color: white;
@@ -41,6 +46,11 @@ nav ul li a:hover {
   color: #00bcd4;
 }
 
+/* ============================== */
+/* 🦸 SECCIÓN HERO (contenido) */
+/* ============================== */
+
+
 section {
   padding: 4rem 2rem;
   background-color: white;
@@ -65,6 +75,9 @@ p {
 }
 
 
+/* ============================== */
+/* 🎞️ CARRUSEL DE IMÁGENES */
+/* ============================== */
 
 .carousel-container {
   width: 100%;

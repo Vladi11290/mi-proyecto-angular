@@ -1,11 +1,12 @@
 import { Component, signal } from '@angular/core';
 import { NavbarComponent } from './navbar/navbar';
 import { NgFor, NgIf } from '@angular/common';
+import { SeccionServicios } from './seccion-servicios/seccion-servicios';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NavbarComponent, NgFor, NgIf],
+  imports: [NavbarComponent, SeccionServicios, NgFor, NgIf],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })

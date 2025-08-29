@@ -1,0 +1,15 @@
+🗓️ Día 2 - Desarrollo Angular
+
+✅ Hoy hemos implementado:
+- Una barra de navegación superior con enlaces: Inicio, Servicios, Sobre mí, Contacto.
+- Una sección principal tipo "hero" con un carrusel de imágenes (slider automático).
+
+📂 También hemos:
+- Corregido la carga de imágenes agregando correctamente la ruta `src/assets` en `angular.json`.
+
+🛠️ Próximos pasos:
+- Añadir secciones de contenido con tarjetas o bloques informativos.
+- Agregar animaciones suaves y diseño responsive.
+
+🔧 Observaciones:
+- No se ha utilizado Bootstrap ni ninguna librería externa de estilos aún.

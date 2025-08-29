@@ -1,0 +1,66 @@
+/* Fondo general más elegante */
+#servicios {
+  background: linear-gradient(to right, #f7f9fc, #eef3f8);
+  padding: 4rem 2rem;
+  border-radius: 10px;
+}
+
+/* Título general */
+#servicios h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 3rem;
+}
+
+/* Grid de tarjetas */
+.servicios-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 0 1rem;
+}
+
+/* Tarjeta individual */
+.servicio-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* Hover: giro + sombra fuerte */
+.servicio-card:hover {
+  transform: rotateY(3deg) rotateX(3deg) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Iconos */
+.servicio-card i {
+  font-size: 3rem;
+  color: #00bcd4;
+  margin-bottom: 1rem;
+}
+
+/* Títulos */
+.servicio-card h3 {
+  margin-bottom: 1rem;
+  color: #222;
+  font-size: 1.4rem;
+}
+
+/* Párrafos con estilo */
+.servicio-card p {
+  color: #444;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 90%;
+  margin: 0 auto;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
