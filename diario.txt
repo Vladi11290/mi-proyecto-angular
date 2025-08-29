@@ -11,5 +11,9 @@
 - Añadir secciones de contenido con tarjetas o bloques informativos.
 - Agregar animaciones suaves y diseño responsive.
 
-🔧 Observaciones:
-- No se ha utilizado Bootstrap ni ninguna librería externa de estilos aún.
+
+Día 3 - Finalizada la sección de Servicios
+- Se creó el componente seccion-servicios
+- Diseño con CSS Grid y tarjetas estilizadas
+- Añadida animación de giro y sombra al pasar el cursor
+- Tipografía profesional con Google Fonts (Poppins)
