@@ -1,0 +1,12 @@
+
+<section class="contacto">
+  <div class="formulario-container">
+    <h2>Contacto</h2>
+    <form (submit)="enviarMensaje($event)">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo electrónico" required>
+      <textarea rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </div>
+</section>

@@ -1,0 +1,68 @@
+/* Fondo general con degradado */
+.contacto {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  background: linear-gradient(135deg, #e3f2fd, #90caf9);
+  border-radius: 20px; 
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05); 
+}
+
+/* Tarjeta del formulario */
+.formulario-container {
+  background: #ffffff;
+  padding: 3rem 2.5rem;
+  border-radius: 20px; 
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Título */
+.formulario-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input, textarea {
+  font-family: inherit;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #00bcd4;
+}
+
+/* Botón */
+button {
+  background: #00bcd4;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0097a7;
+}
