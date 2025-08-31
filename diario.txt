@@ -1,15 +1,47 @@
-🗓️ Día 2 - Desarrollo Angular
+Día 1: Preparación del entorno
 
-✅ Hoy hemos implementado:
+Objetivos cumplidos:
+- Instalación del entorno Angular
+- Configuración inicial del proyecto
+- Actualización de dependencias y módulos
+- Preparación del repositorio Git
+- Pruebas de ejecución con servidor local
+
+Día 2 - Desarrollo Angular
+
+Hoy hemos implementado:
 - Una barra de navegación superior con enlaces: Inicio, Servicios, Sobre mí, Contacto.
 - Una sección principal tipo "hero" con un carrusel de imágenes (slider automático).
 
-📂 También hemos:
+ También hemos:
 - Corregido la carga de imágenes agregando correctamente la ruta `src/assets` en `angular.json`.
 
-🛠️ Próximos pasos:
+ Próximos pasos:
 - Añadir secciones de contenido con tarjetas o bloques informativos.
 - Agregar animaciones suaves y diseño responsive.
 
-🔧 Observaciones:
-- No se ha utilizado Bootstrap ni ninguna librería externa de estilos aún.
+
+Día 3 - Finalizada la sección de Servicios
+- Se creó el componente seccion-servicios
+- Diseño con CSS Grid y tarjetas estilizadas
+- Añadida animación de giro y sombra al pasar el cursor
+- Tipografía profesional con Google Fonts (Poppins)
+
+Día 4: Creación de secciones
+
+Implementado hoy:
+- Sección "Sobre mí" creada como componente standalone
+- Sección "Contacto" con formulario funcional
+- Diseño inicial aplicado a ambas secciones
+- Corrección de errores de importación y rutas
+
+Objetivos pendientes:
+- Mejorar estilos visuales del formulario de contacto
+
+ Día 5
+
+Objetivos cumplidos:
+- Se ha creado la sección de Footer.
+
+Nota:
+Los siguientes días se irán mejorando los estilos CSS para perfeccionar el diseño de la página.
