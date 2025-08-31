@@ -38,3 +38,10 @@ Implementado hoy:
 Objetivos pendientes:
 - Mejorar estilos visuales del formulario de contacto
 
+ Día 5
+
+Objetivos cumplidos:
+- Se ha creado la sección de Footer.
+
+Nota:
+Los siguientes días se irán mejorando los estilos CSS para perfeccionar el diseño de la página.
