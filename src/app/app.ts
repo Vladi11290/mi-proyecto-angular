@@ -4,12 +4,13 @@ import { NgFor, NgIf } from '@angular/common';
 import { SeccionServicios } from './seccion-servicios/seccion-servicios';
 import { SeccionSobreMiComponent } from './seccion-sobre-mi.component';
 import { SeccionContactoComponent } from './seccion-contacto/seccion-contacto';
+import { Footer } from './footer/footer';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NavbarComponent, SeccionServicios, SeccionSobreMiComponent, SeccionContactoComponent, NgFor, NgIf],
+  imports: [NavbarComponent, SeccionServicios, SeccionSobreMiComponent, SeccionContactoComponent, Footer, NgFor, NgIf],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
