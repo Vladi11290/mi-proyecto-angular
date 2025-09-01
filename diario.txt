@@ -44,4 +44,28 @@ Objetivos cumplidos:
 - Se ha creado la sección de Footer.
 
 Nota:
-Los siguientes días se irán mejorando los estilos CSS para perfeccionar el diseño de la página.
+- Los siguientes días se irán mejorando los estilos CSS para perfeccionar el diseño de la página.
+
+Día 6 – Mejora de la sección Hero
+
+Implementado hoy:
+
+- Fondo degradado CSS en #inicio (sin imágenes).
+
+- Sección más compacta: reducción de padding y altura visual.
+
+- Carrusel centrado y con ancho limitado (min(92vw, 1100px)) manteniendo aspect-ratio.
+
+- Imágenes de slides con object-fit: cover.
+
+- Ajuste de controles y puntos (hover/sombras) y aria-label en botones.
+
+Correcciones:
+
+- Evitado el fondo oscuro a ancho completo moviendo estilos al contenedor correcto.
+
+- Selectores CSS precisos para #inicio .carousel, .slide y .dots.
+
+Nota:
+- El proximo día se mejorara la sección de Servicios.
+
